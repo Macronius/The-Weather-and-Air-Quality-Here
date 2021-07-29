@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: inline-box;
+
+    --clr-lt: rgb(255, 255, 166);
+}
+
+#section-header {
+    background: rgb(61, 103, 177);
+    width: 80vw;
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    /* border-bottom-left-radius: -15px; */
+    /* border-bottom-right-radius: -15px; */
+}
+#section-header h2 {
+    font-size: 3rem;
+}
+/* #section-header ul {
+
+} */
+#section-header ul > * {
+    font-size: 1.75rem;
+    margin-left: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+#section-data {
+    width: 80vw;
+    /* height: 3rem; */
+    height: auto;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background: rgb(0, 115, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 166);
+    font-weight: bold;
+}
+#location-data {
+    font-size: 2rem;
+    color: rgb(60, 64, 113);
+}
+.sec-data {
+    color: white;
+}
+
+#section-button {
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+#section-data > * {
+    margin: .5rem;
+}
+
+.checkin-item {
+    background: rgb(121, 121, 233);
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .75rem;
+    padding: .5rem;
+}
+.checkin-item > * {
+    padding: .25rem;
+    outline: 1px solid white;
+}
+
+#aq-para {
+    height: auto;
+    width: 15vw;
+}
+
+#aq-para table {
+    border-style: double;
+    border-width: 4px;
+    border-color:rgb(255, 255, 166);
+    /* background-color: #d9d9d9; */
+}
+
+#aq-para table,
+#ap-para table tr td  {
+    border: 2px double rgb(255, 255, 166);
+}
+
+table, th, td, tr {
+    border: 1px solid rgb(255, 255, 166);
+}
+
+#section-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    border: 3px double white;
+}
+
+
+
+/*checkins page*/
+#checkinMap {
+    height: 240px;
+    margin: 8px 0px;
+}

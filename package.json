@@ -1,0 +1,20 @@
+{
+  "name": "the-weather-here",
+  "version": "1.0.0",
+  "description": "get current latitude longitude temperature and air quality 'check in' button to log information to a database and view all check-in data plotted on a map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "module3"
+  ],
+  "author": "Joey Lee The Coding Train Marcus Richardson",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.1"
+  }
+}
