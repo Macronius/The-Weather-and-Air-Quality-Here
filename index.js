@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const port = process.env.PORT || 5000;
 
 const fetch = require('node-fetch');
 
@@ -7,7 +8,9 @@ require('dotenv').config(); //to pull api-key from .env
 console.log(process.env);
 
 
-app.listen(5000, ()=> console.log("Listening on port 5000."));
+app.listen(port, ()=> {
+    console.log(`Starting server at ${port}`);
+});
 app.use(express.static('public'));  //NOTE: anything in this folder can be viewed by the public, this is why it is called 'public'
 app.use(express.json({limit: '1mb'}));
 
